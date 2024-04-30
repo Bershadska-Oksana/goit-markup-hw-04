@@ -83,7 +83,6 @@ p {
 .position {
   position: relative;
   color: #404bbf;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container {
   width: 1158px;
@@ -281,8 +280,8 @@ menu-item {
 .container-team {
   padding: 32px 0;
 }
-.team-image:hover,
-.team-image:focus {
+.team-image .team-image:hover,
+.team-image .team-image:focus {
   background-color: #404bbf;
 }
 /* ======== PORTFOLIO STYLES ======== */
@@ -410,6 +409,5 @@ menu-item {
   background-color: #31d0aa;
 }
 .container-logo {
-  margin-left: 456px;
   margin-right: 120px;
 }
