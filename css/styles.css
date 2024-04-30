@@ -178,7 +178,8 @@ menu-item {
 .benefits-list-item {
   width: calc((100% - 72px) / 4);
 }
-
+.benefits-icon {
+}
 .team-name {
   font-weight: 500;
   font-size: 20px;
@@ -302,6 +303,7 @@ menu-item {
   background: #2e2f42;
   padding: 100px 0;
 }
+
 .logo-part-footer {
   color: #f4f4fd;
 }
@@ -317,13 +319,24 @@ menu-item {
   justify-content: center;
   column-gap: 16px;
 }
+.social-list-item {
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
 .sm-container {
 }
-
-.social-link-list {
-  display: block;
+.social-list-icon {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   color: #4d5ae5;
+  fill: "white";
+}
+.social-list-link {
+  display: block;
+  line-height: 0;
+  fill: #f4f4fd;
 }
