@@ -282,8 +282,8 @@ p {
   padding: 32px 0;
 }
 
-.social-list-link1:hover,
-.social-list-link1:focus {
+.social-list-link_:hover,
+.social-list-link_:focus {
   background-color: #404bbf;
 }
 
@@ -418,7 +418,7 @@ p {
   fill: "white";
   background-color: #4d5ae5;
 }
-.social-list-link1,
+.social-list-link_,
 .social-list-link {
   background-color: #4d5ae5;
   height: 100%;
