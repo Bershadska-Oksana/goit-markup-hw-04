@@ -310,8 +310,10 @@ p {
 }
 .cardfolio {
   position: absolute;
+  padding: 40px 32px;
   top: 0;
   left: 0;
+  color: #f4f4fd;
   background-color: #4d5ae5;
   height: 100%;
   width: 100%;
